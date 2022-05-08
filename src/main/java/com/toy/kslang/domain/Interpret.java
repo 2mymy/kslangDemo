@@ -4,14 +4,12 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 @Document
-public class Word {
+public class Interpret {
 
     @Id
     private String id;
-
-    private String subject;
-
-    private String interpret;
+    private String wordId;
+    private String detail;
 
 }
 
